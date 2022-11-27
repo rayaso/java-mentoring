@@ -1,4 +1,4 @@
-package ObjectOrientedPrograming.CompositionClass10;
+package OOpClass10;
 
 public class BuyADesktopComputer {
     public static void main(String[] args) {

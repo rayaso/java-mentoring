@@ -1,4 +1,4 @@
-package methodoverriding;
+package methodoverridingClass9;
 
 public class TestClassOverriding {
     public static void main(String[] args) {

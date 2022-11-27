@@ -1,4 +1,4 @@
-package ObjectOrientedPrograming.CompositionClass10;
+package OOpClass10;
 
 public class KeyBoard {//this is composition we creared our own datatype
     String brand;

@@ -1,4 +1,4 @@
-package inheritance.inheritance_with_constractor;
+package inheritanceClass9.inheritance_with_constractorClass9;
 
 public class TestName {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package inheritance;
+package inheritanceClass9;
 
 public class Salmon extends Food{
     void eatSalmon(){

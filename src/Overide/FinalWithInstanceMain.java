@@ -1,2 +1,4 @@
-package Overide;public class FinalWithInstanceMain {
+package Overide;
+
+public class FinalWithInstanceMain {
 }

@@ -1,4 +1,4 @@
-package methodoverriding;
+package methodoverridingClass9;
 
 public class ChildClassOne extends ParentClass{
     void method(){

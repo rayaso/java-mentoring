@@ -1,4 +1,4 @@
-package sorayaDressProject;
+package sorayaDressProjectClass10;
 
 public class SorayaOutFit {
     Dress dressSoraya;

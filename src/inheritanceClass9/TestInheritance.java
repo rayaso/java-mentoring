@@ -1,4 +1,4 @@
-package inheritance;
+package inheritanceClass9;
 
 public class TestInheritance {
     public static void main(String[] args) {

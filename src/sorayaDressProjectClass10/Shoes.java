@@ -1,4 +1,4 @@
-package sorayaDressProject;
+package sorayaDressProjectClass10;
 
 public class Shoes {
     int size;

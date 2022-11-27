@@ -1,4 +1,4 @@
-package inheritance;
+package inheritanceClass9;
 
 public class Apples extends Food{
     String isRedOrGreen;

@@ -1,2 +1,10 @@
-package sorayaAbstractEx;public class AbstractClass {
+package sorayaAbstractEx;
+
+public abstract class AbstractClass {
+    abstract void  methodOne();
+    abstract void methodTwo();
+
+
+
+
 }

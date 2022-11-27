@@ -1,4 +1,4 @@
-package inheritance.inheritance_with_constractor;
+package inheritanceClass9.inheritance_with_constractorClass9;
 
 public class TunaFoodChild extends FoodParent {//in order to access size and nameoffood from parent
 boolean isItFrozen;
