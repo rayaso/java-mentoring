@@ -9,21 +9,25 @@ public class SorayaJavaRdTextFile {
     public static void main(String[] args) throws Exception{
         /*this method to read file in anywhere location ex(c)*/
 
-        File s = new File("C:\\Users\\soray\\firstproject\\soniaText.txt");//to acess the file
-        System.out.println("my file is located in \"c:\\Users\\soray\\firstproject\"");
-        Scanner t = new Scanner(s);
+        File s = new File("C:\\Users\\soray\\firstproject\\learningjava.txt");//to acess the file
+        //System.out.println("my file is located in \"c:\\Users\\soray\\firstproject\"");
+
+        Scanner t = new Scanner(s);/* we use scanner in this methode,we have another methode with buffers
+        witch is showen in MoreOnJavaRdAndWrte,class but we prefer buffers than scanner because scans
+        the whole file and than go line by line*/
+
         while (t.hasNextLine()) { //we use it to read multiple line
 
             System.out.println(t.nextLine());/*to read one line*/
 
 
         }
-/*this method to read a file created in java*/
       System.getProperty("user.dir"); /*with this methode we tell java to bring the path for intlji
     text file*/
         System.out.println(System.getProperty("user.dir")+"\\src\\javasorayareadandwritefile\\sorayaFile.txt");
 
-       //1st way:
+        //this method to read a file created in java*//*
+        //1st way:
        String absolutePath = System.getProperty("user.dir");
        String relativePath = "\\src\\javasorayareadandwritefile\\sorayaFile.txt";
        File PP = new File(absolutePath+relativePath);
@@ -37,3 +41,5 @@ public class SorayaJavaRdTextFile {
 File rr = new File(System.getProperty("user.dir")+"\\src\\javasorayareadandwritefile\\sorayaFile.txt");
     }
 }
+
+//when we are naming the file do not add txt extention,it saves automaticly as txt file
