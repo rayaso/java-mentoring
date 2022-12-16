@@ -11,6 +11,7 @@ private SingleTonClass(){
 
 }
 public static SingleTonClass getInstance(int x){
+
     return obj;
 }
 
