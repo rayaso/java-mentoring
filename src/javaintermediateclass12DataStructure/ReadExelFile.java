@@ -1,4 +1,4 @@
-package javaintermediateclass12DataStructure;
+/*package javaintermediateclass12DataStructure;
 
 import jdk.internal.access.JavaIOFileDescriptorAccess;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -33,19 +33,19 @@ public class ReadExelFile {
         int row = Sheet.getLastRowNum()+1/* +1 to get started by the value of 0 index,because this methode
         already has -1 so we add +1 so we grt =0 and the code start looking from 0 index*/;
 
-        int column = Sheet.getRow(0).getLastCellNum();//cell=column
+      /*int column = Sheet.getRow(0).getLastCellNum();//cell=column
 
         String[][] rowcol=new String[row][column];
 
-        for (int a = 0/*start with 0 row*/; a < row; a++) {/*get all the values of row and
-         put it in sonia wich is XSSFRow(the class that we dowload apache type,we created a variable*/
+      /* for (int a = 0/*start with 0 row*/;// a < row; a++) {/*get all the values of row and*/
+      /* put it in sonia wich is XSSFRow(the class that we dowload apache type,we created a variable*/
 
-            XSSFRow sonia = Sheet.getRow(a);
+         /*   XSSFRow sonia = Sheet.getRow(a);
 
             for (int b = 0; b < column; b++) {
                 String value = sonia.getCell(b).toString();/*get all value of column and put it
                 inside value wich is a string type*/
-                rowcol[a][b] = value;
+               /* rowcol[a][b] = value;
 
                 System.out.print(value + "\t\t");
 
@@ -57,4 +57,4 @@ public class ReadExelFile {
     }
 
 
-}
+}*/

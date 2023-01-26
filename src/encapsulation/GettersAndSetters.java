@@ -1,4 +1,4 @@
-package encapsulation;
+ package encapsulation;
 
 public class GettersAndSetters {//hiding datatype and call it through getters and setters
 

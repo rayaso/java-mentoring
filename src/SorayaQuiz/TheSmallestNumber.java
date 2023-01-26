@@ -1,6 +1,7 @@
 package SorayaQuiz;
 
 
+import java.io.File;
 import java.util.Scanner;
 
 public class TheSmallestNumber {
@@ -11,9 +12,9 @@ public class TheSmallestNumber {
         int y = sc.nextInt();
         System.out.println("write another number");
         if (x > y) {
-            System.out.println("the first number is smaller");
-        } else if (y > x) {
             System.out.println("the second number is smaller");
+        } else if (y > x) {
+            System.out.println("the first number is smaller");
         } else {
             System.out.println("the numbers are equal");
         }

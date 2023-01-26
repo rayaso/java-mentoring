@@ -1,6 +1,6 @@
 package OOpClass10;
 
-public class KeyBoard {//this is composition we creared our own datatype
+public class KeyBoard {
     String brand;
     boolean isWireless;
     boolean hasNumpad;
